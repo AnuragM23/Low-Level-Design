@@ -1,23 +1,32 @@
-# Low Level Design
-- LLD is designing of application, which is built around algorithms to solve Isolated Problems.
-- it heavily focuses on Code Structure.
+# Low-Level Design
 
-## Before LLD, pointers to look into
-- Objects / Entities
-- Relationships
-- Data Security
+Low-level design (LLD) is the process of designing how an application is built internally to solve isolated problems efficiently. It focuses on the implementation details, algorithms, code structure, and the relationships between different components.
+
+LLD strongly emphasizes:
+- code structure
+- class and module design
+- responsibility boundaries
+- data flow
+- implementation decisions
+
+## Before LLD, look into these areas
+- Objects / entities
+- Relationships between them
+- Data security
 - Scalability
 - Extensibility
 
-## Core Concepts of LLD
-1. Scalability 
-2. Maintainiblity 
+## Core concepts of LLD
+1. Scalability
+2. Maintainability
 3. Extensibility
 
-## What is Not LLD
-<b>High Level Design</b><br>
-    -> Tech Stack<br>
-    -> DB (Sql/NoSql...)<br>
-    -> Server Scaling<br>
-    -> Cost Optimization<br>
-<i>it focuses on System Architecture</i>
+## What is not LLD?
+
+### High-Level Design (HLD)
+- Tech stack
+- Database choice (SQL / NoSQL)
+- Server scaling
+- Cost optimization
+
+HLD focuses on the overall system architecture, while LLD is more concerned with the internal design and implementation of individual components.
